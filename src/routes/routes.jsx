@@ -23,7 +23,7 @@ const Routes = () => {
         <Route exact path="/register">
           <Register />
         </Route>
-        <Route exact path="/place">
+        <Route path="/place/:id">
           <Place />
         </Route>
 

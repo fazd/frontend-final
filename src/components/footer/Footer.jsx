@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import Logo from '../../assets/logo192.png';
 
 const Footer = () => {
 
@@ -13,7 +13,7 @@ const Footer = () => {
               <ul className="list-group list-group-horizontal  d-flex justify-content-around">
                 <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/consultas">Consultas</Link></li>
                 <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/security">Seguridad</Link></li>
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/"><img src="logo192.png" height="40" width="40" alt="" /></Link></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/"><img src={Logo} height="40" width="40" alt="" /></Link></li>
                 <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/news">Noticias</Link></li>
                 <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/profile">Perfil</Link></li>
               </ul>
@@ -22,10 +22,10 @@ const Footer = () => {
           <div className="row mt-4 d-flex justify-content-center">
             <div className="col-6">
               <ul className="list-group list-group-horizontal  d-flex justify-content-around">
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src="logo192.png" height="40" width="40" alt="" /></li>
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src="logo192.png" height="40" width="40" alt="" /></li>
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src="logo192.png" height="40" width="40" alt="" /></li>
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src="logo192.png" height="40" width="40" alt="" /></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src={Logo} height="40" width="40" alt="" /></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src={Logo} height="40" width="40" alt="" /></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src={Logo} height="40" width="40" alt="" /></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><img src={Logo} height="40" width="40" alt="" /></li>
               </ul>
             </div>
           </div>

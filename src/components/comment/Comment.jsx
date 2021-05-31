@@ -3,15 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Comment = (props) => {
 
-  const [heartIconColor, setHeartIconColor] = useState({ color: 'gray', isSelected: false, selectedColor: 'red', quantity: 0 });
-  const [thumbsUpIconColor, setThumbsUpIconColor] = useState({ color: 'gray', isSelected: false, selectedColor: 'green', quantity: 0 });
-  const [thumbsDownIconColor, setThumbsDownIconColor] = useState({ color: 'gray', isSelected: false, selectedColor: 'red', quantity: 0 });
+  const [heartIconColor, setHeartIconColor] = useState({ color: 'gray', isSelected: false, selectedColor: 'red'});
+  const [thumbsUpIconColor, setThumbsUpIconColor] = useState({ color: 'gray', isSelected: false, selectedColor: 'green'});
+  const [thumbsDownIconColor, setThumbsDownIconColor] = useState({ color: 'gray', isSelected: false, selectedColor: 'red'});
 
 
 
   return (
     <div>
-      <div className="card my-1 bg-semi-transparent">
+      <div className="card my-2 shadow p-3bg-body rounded">
         <div className="card-body">
           <div className="d-flex flex-row justify-content-between">
             <h5 className="card-title">{props.name} dice</h5>
@@ -28,7 +28,7 @@ const Comment = (props) => {
               onMouseEnter={() => setHeartIconColor({ ...heartIconColor, color: 'red' })}
               onMouseLeave={() => setHeartIconColor({ ...heartIconColor, color: 'gray' })}
               onClick={() => setHeartIconColor({ ...heartIconColor, isSelected: !heartIconColor.isSelected })}
-            /> {heartIconColor.quantity}
+            /> {props.heartQuantity + (heartIconColor.isSelected ? 1 : 0)}
           </div>
           <div className="icon-grp ms-3">
             <FontAwesomeIcon
@@ -39,7 +39,7 @@ const Comment = (props) => {
               onMouseLeave={() => setThumbsUpIconColor({ ...thumbsUpIconColor, color: 'gray' })}
               onClick={() => setThumbsUpIconColor({ ...thumbsUpIconColor, isSelected: !thumbsUpIconColor.isSelected })}
 
-            /> {thumbsUpIconColor.quantity}
+            /> {props.thumbsUpQuantity + (thumbsUpIconColor.isSelected ? 1 : 0)}
           </div>
           <div className="icon-grp ms-3">
             <FontAwesomeIcon
@@ -50,7 +50,7 @@ const Comment = (props) => {
               onMouseLeave={() => setThumbsDownIconColor({ ...thumbsDownIconColor, color: 'gray' })}
               onClick={() => setThumbsDownIconColor({ ...thumbsDownIconColor, isSelected: !thumbsDownIconColor.isSelected })}
 
-            /> {thumbsDownIconColor.quantity}
+            /> {props.thumbsDownQuantity + (thumbsDownIconColor.isSelected ? 1 : 0) }
           </div>
         </div>
       </div>
