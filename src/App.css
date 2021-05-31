@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+#login{
+  height: 100vh;
+  background-image: url(https://www.barranquilla.gov.co/wp-content/uploads/2019/09/barranquilla_01945-e1569863568539.jpg);
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#login-card{
+  background-color: #33648aef;
+  border-radius: 15px;
+  width: 400px;
+  height: 60%;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-input{
+  width: 70% !important;
+  border-radius: 15px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login-card, .form-group{
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.login-button{
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  border-radius: 15px !important;
 }
