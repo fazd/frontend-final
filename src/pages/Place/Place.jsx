@@ -9,12 +9,16 @@ import { useParams } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import markerIconPng from "leaflet/dist/images/marker-icon.png"
 import {Icon} from 'leaflet'
+import CommentBox from '../../components/comment-box/Coment-box';
+import ReactStars from 'react-stars'
+
 
 const Place = () => {
 
   const {id} = useParams();
   const [place, setPlace] = useState({});
   const [comments, setComments] = useState([]);
+  const [rating, setRating] = useState([]);
 
   useEffect(()=> {
     const response = places.find((place) => place.id === parseInt(id));
@@ -25,6 +29,23 @@ const Place = () => {
 
   },[]);
 
+  const handleNewComment = (e) => {
+    const aux = comments;
+    aux.unshift({
+      user: "Anonimo",
+      created: "Ahora mismo",
+      content: e,
+      heart: 0,
+      thumbsUp: 0,
+      thumbsDown: 0
+    });
+    setComments(aux);
+    console.log("au", aux);
+  }
+
+  const ratingChanged = (e) => {
+    setRating(e.target.value)
+  }
 
   return (
     <div>
@@ -39,7 +60,15 @@ const Place = () => {
                 height="250"
                 width="250"
                 className="rounded-circle align-self-center"
-                alt="img logo"
+                alt="img loga"
+              />
+              <ReactStars
+                className="align-self-center"
+                count={5}
+                value={4.5}
+                size={48}
+                color2={'#ffd700'}
+                edit={false}
               />
               <div className="container mt-4">
                 <div className="d-flex flex-row my-2">
@@ -93,15 +122,7 @@ const Place = () => {
                     )
                   }) 
                 }
-                {/* <div className="carousel-item active">
-                  <img src={img} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                  <img src={img} className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                  <img src={img} className="d-block w-100" alt="..." />
-                </div> */}
+                
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -114,8 +135,9 @@ const Place = () => {
             </div>
             <h3 className="mt-3">Comentarios </h3>
             <div className="comment-group mb-4">
+              <CommentBox newComment={handleNewComment} />
               { 
-                place.comments?.map((comment) => {
+                comments?.map((comment) => {
                   return (
                     <Comment 
                       name={comment.user}

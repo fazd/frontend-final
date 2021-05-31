@@ -21,6 +21,7 @@
     "react-leaflet": "^3.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-stars": "^2.2.5",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -36,8 +37,8 @@
     ]
   },
   "browserslist": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"    
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
   ]
 }
