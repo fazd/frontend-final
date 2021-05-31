@@ -16,13 +16,11 @@ const Navbar = () => {
               <li><Link to="/contact" className="nav-link px-2 text-white fs-5">Contactanos</Link></li>
               <li><Link to="/plans" className="nav-link px-2 text-white fs-5">Planes</Link></li>
             </ul>
-
-
             <div class="dropdown text-end me-4">
               <Link to="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="https://github.com/mdo.png" alt="mdo" width="40" height="40" class="rounded-circle" />
               </Link>
-              <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+              <ul class="dropdown-menu text-small mt-2" aria-labelledby="dropdownUser1">
                 <li><Link class="dropdown-item" to="/profile">Mi perfil</Link></li>
                 <li><Link class="dropdown-item" to="/places">Mis lugares</Link></li>
                 <li><hr class="dropdown-divider" /></li>

@@ -36,3 +36,23 @@
 .nav-link:hover {
   color: rgb(200, 200, 200) !important;
 }
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: rgb(200, 200, 200) !important;
+}
+
+.no-border{
+  border: 0px !important;
+}
+
+.gray-divider{
+    border-top: 2px solid gray;
+}
+
+.page {
+  min-height: 100vh;
+}
