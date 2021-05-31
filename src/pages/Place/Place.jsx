@@ -65,7 +65,7 @@ const Place = () => {
               <ReactStars
                 className="align-self-center"
                 count={5}
-                value={4.5}
+                value={place.score}
                 size={48}
                 color2={'#ffd700'}
                 edit={false}
