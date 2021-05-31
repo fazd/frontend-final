@@ -28,3 +28,11 @@
 .btn{
   border-radius: 15px !important;
 }
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: rgb(200, 200, 200) !important;
+}
