@@ -8,6 +8,7 @@ import {
 import Home from '../pages/Home/Home';
 import Register from '../pages/Register/Register';
 import Login from '../pages/Login/Login';
+import Place from '../pages/Place/Place';
 
 const Routes = () => {
   return (
@@ -21,6 +22,9 @@ const Routes = () => {
         </Route>
         <Route exact path="/register">
           <Register />
+        </Route>
+        <Route exact path="/place">
+          <Place />
         </Route>
 
       </Switch>
