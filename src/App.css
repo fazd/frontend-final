@@ -74,3 +74,14 @@
   width: 400px;
   height: 400px;
 }
+
+.sizing {
+  height: 300px;
+  width: 100%;
+
+  object-fit: cover !important;
+}
+
+.neg-mt {
+  margin-top: -60px;
+}

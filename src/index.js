@@ -18,10 +18,14 @@ import {
   faSignature,
   faMapMarkerAlt,
   faComment,
-
   faThumbsUp,
   faThumbsDown,
-  faHeart
+  faHeart,
+  faCalendar,
+  faClock,
+  faUsers,
+  faSave,
+  faPlusCircle,
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -34,7 +38,12 @@ library.add(
   faComment,
   faHeart,
   faThumbsUp,
-  faThumbsDown
+  faThumbsDown,
+  faCalendar,
+  faClock,
+  faUsers,
+  faSave,
+  faPlusCircle
 );
 
 ReactDOM.render(

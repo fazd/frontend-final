@@ -14,6 +14,48 @@
         "https://www.elheraldo.co/sites/default/files/styles/width_820/public/galeriaimagenes/2021/02/25/whatsapp_image_2021-02-25_at_6.26.17_pm_3.jpeg",
         "https://zonacero.com/sites/default/files/styles/1260x720/public/2018/12/01/fotos/tecnoglass-_luces_de_navidad_8.jpeg"
       ],
+      
+      "comments": [
+        {
+          "user": "Fabio",
+          "created": "Feb 2021",
+          "content": "Me gustó mucho. Fui con mi familia y mis padres y me pareció un ambiente saludable y familiar.",
+          "heart": 10,
+          "thumbsUp": 3,
+          "thumbsDown": 1
+        },
+        {
+          "user": "Raul",
+          "created": "Enero 2021",
+          "content": "Me gustó mucho. Fui con mi familia y mis padres y me pareció un ambiente saludable y familiar.",
+          "heart": 10,
+          "thumbsUp": 3,
+          "thumbsDown": 5
+        },
+        {
+          "user": "Ernesto",
+          "created": "Dic 2020",
+          "content": "Me gustó mucho. Fui con mi familia y mis padres y me pareció un ambiente saludable y familiar.",
+          "heart": 1,
+          "thumbsUp": 30,
+          "thumbsDown": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Ventana a char",
+      "address": "Calle 31 # 42-56",
+      "description": "Este lugar representa a barranquilla y a todaas su gente",
+      "profileUrl": "https://ep01.epimg.net/internacional/imagenes/2018/07/23/billete_a_macondo/1532310440_143390_1532310884_noticia_normal_recorte1.jpg",
+      "positionX": 11.033298611133851,
+      "positionY": -74.83141673155822,
+      "score": 4.5,
+      "sliderUrls": [
+        "https://ep01.epimg.net/internacional/imagenes/2018/07/23/billete_a_macondo/1532310440_143390_1532310884_noticia_normal_recorte1.jpg",
+        "https://www.elheraldo.co/sites/default/files/styles/width_820/public/galeriaimagenes/2021/02/25/whatsapp_image_2021-02-25_at_6.26.17_pm_3.jpeg",
+        "https://zonacero.com/sites/default/files/styles/1260x720/public/2018/12/01/fotos/tecnoglass-_luces_de_navidad_8.jpeg"
+      ],
       "a": [
         "https://www.elheraldo.co/sites/default/files/styles/width_820/public/galeriaimagenes/2021/02/25/whatsapp_image_2021-02-25_at_6.26.17_pm_3.jpeg",
         "https://zonacero.com/sites/default/files/styles/1260x720/public/2018/12/01/fotos/tecnoglass-_luces_de_navidad_8.jpeg"

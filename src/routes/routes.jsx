@@ -9,6 +9,8 @@ import Home from '../pages/Home/Home';
 import Register from '../pages/Register/Register';
 import Login from '../pages/Login/Login';
 import Place from '../pages/Place/Place';
+import Event from '../pages/Event/Event';
+
 
 const Routes = () => {
   return (
@@ -25,6 +27,9 @@ const Routes = () => {
         </Route>
         <Route path="/place/:id">
           <Place />
+        </Route>
+        <Route path="/event/:id">
+          <Event />
         </Route>
 
       </Switch>

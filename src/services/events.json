@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Desfile de las marimondas",
+      "hour": "8:30-12:30",
+      "date": "20-02-2022",
+      "address": "calle falsa 123",
+      "positionX": 11.033298611133851,
+      "positionY": -74.83141673155822,
+      "confirm": 400,
+      "maximun": 2000,
+      "description": "Suspendisse sed sem a dui venenatis venenatis sit amet sit amet turpis. Etiam laoreet accumsan ante ac semper. Pellentesque dapibus molestie efficitur. Curabitur arcu odio, feugiat egestas sollicitudin sit amet, pharetra eu ligula. Maecenas aliquet nisi vitae arcu facilisis, vitae rhoncus mi dignissim. Pellentesque viverra augue sit amet arcu dapibus commodo. Mauris ornare libero eget porta porttitor. Curabitur dui elit, auctor quis eros et, iaculis malesuada ante. Nam suscipit lacus ac tortor dictum, vitae sodales neque ornare. Nulla facilisi. Praesent luctus dui a posuere varius. Praesent interdum tristique eros.",
+      "backgroundURL": "https://www.semana.com/resizer/CERKiwg1IAJQHBiI3mQKOCoUWDM=/1200x675/filters:format(jpg):quality(70)//cloudfront-us-east-1.images.arcpublishing.com/semana/M37ITBTWYZHAXPOJLHENQIW2AU.jpg",
+      "profileURL": "https://s3.amazonaws.com/rtvc-assets-senalcolombia.gov.co/s3fs-public/field/image/MARIMONDA.png"
+    }
+  ]
+}
