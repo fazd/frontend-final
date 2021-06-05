@@ -85,3 +85,30 @@
 .neg-mt {
   margin-top: -60px;
 }
+
+.card-vertical {
+  max-width: 25vw !important;
+  border-radius: 20px !important;
+}
+
+.card-img{
+  object-fit: cover;
+  max-height: 250px;
+  max-width: 95%;
+  border-radius: 10px !important;
+  align-self: center;
+}
+
+.link-card{
+  text-decoration: none;
+  color: black;
+}
+
+.link-card:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.max-card-text{
+  height: 50px;
+}

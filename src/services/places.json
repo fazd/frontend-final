@@ -14,7 +14,6 @@
         "https://www.elheraldo.co/sites/default/files/styles/width_820/public/galeriaimagenes/2021/02/25/whatsapp_image_2021-02-25_at_6.26.17_pm_3.jpeg",
         "https://zonacero.com/sites/default/files/styles/1260x720/public/2018/12/01/fotos/tecnoglass-_luces_de_navidad_8.jpeg"
       ],
-      
       "comments": [
         {
           "user": "Fabio",
@@ -39,6 +38,35 @@
           "heart": 1,
           "thumbsUp": 30,
           "thumbsDown": 5
+        }
+      ],
+      "recomendations": [
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
         }
       ]
     },
