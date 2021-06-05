@@ -9,10 +9,10 @@ const Card = (props) => {
         <div class="card-body">
           <h5 class="card-title">{props.name}</h5>
           <p class="card-text">{props.content}</p>
-          <div className="d-flex justify-content-end align-items-center">
+          {props.disableLikes === undefined ? <div className="d-flex justify-content-end align-items-center">
             <FontAwesomeIcon icon="thumbs-up" color="gray" className="me-3" /> {props.thumbsUp}
             <FontAwesomeIcon icon="thumbs-down" color="gray" className="ms-3 me-3" /> {props.thumbsDown}
-          </div>
+          </div> : null}
         </div>
 
       </div>

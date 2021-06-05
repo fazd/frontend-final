@@ -10,6 +10,8 @@ import Register from '../pages/Register/Register';
 import Login from '../pages/Login/Login';
 import Place from '../pages/Place/Place';
 import Event from '../pages/Event/Event';
+import Discover from '../pages/Discover/Discover';
+
 
 
 const Routes = () => {
@@ -24,6 +26,9 @@ const Routes = () => {
         </Route>
         <Route exact path="/register">
           <Register />
+        </Route>
+        <Route path="/discover">
+          <Discover />
         </Route>
         <Route path="/place/:id">
           <Place />

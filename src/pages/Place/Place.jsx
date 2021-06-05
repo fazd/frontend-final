@@ -197,38 +197,6 @@ const Place = () => {
                 />
               )
             }
-            {/* <Card
-              img={'https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg'}
-              name={'Iglesia de San nicolas'}
-              content={'Se que te puede interesar'}
-              id={'30'}
-              type='event'
-              thumbsUp={30}
-              thumbsDown={30}
-              className="mx-3"
-            />
-            <Card
-              img={'https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg'}
-              name={'Iglesia de San nicolas'}
-              content={'Se que te puede interesar'}
-              id={'30'}
-              type='event'
-              thumbsUp={30}
-              thumbsDown={30}
-              className="mx-3"
-            />
-            <Card
-              img={'https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg'}
-              name={'Iglesia de San nicolas'}
-              content={'Se que te puede interesar'}
-              id={'30'}
-              type='event'
-              thumbsUp={30}
-              thumbsDown={30}
-              className="mx-3"
-            /> */}
-
-
           </div>
         </div>
       </div>
