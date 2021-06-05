@@ -1,0 +1,103 @@
+{
+  "cultural_events": [
+    {
+      "name": "Evento #1",
+      "collapse": "CollapseOne",
+      "events": [
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        }
+      ]
+    },
+    {
+      "name": "Evento #2",
+      "collapse": "CollapseTwo",
+      "events": [
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        }
+      ]
+    },
+    {
+      "name": "Evento #3",
+      "collapse": "CollapseThree",
+      "events": [
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        },
+        {
+          "id": 1,
+          "name": "Iglesia de San Nicolas",
+          "content": "La iglesia de San Nicolás de Tolentino de Barranquilla es una iglesia de culto católico bajo la advocación de San Nicolás de Tolentino, patrono de la ciudad. Es una edificación de estilo neogótico cuya construcción data de la segunda década del siglo XVII, la cual tomó alrededor de 300 años.",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Iglesia_de_San_Nicolas_de_Tolentino_%28Barranquilla%29.jpg",
+          "type": "place",
+          "thumbsUp": 10,
+          "thumbsDown": 1
+        }
+      ]
+    }
+  ]
+}

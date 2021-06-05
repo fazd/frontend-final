@@ -12,6 +12,7 @@ import Place from '../pages/Place/Place';
 import Event from '../pages/Event/Event';
 import Discover from '../pages/Discover/Discover';
 import ListCard from '../pages/List-card/List-card';
+import CulturalAgenda from '../pages/Cultural-Agenda/Cultural-Agenda';
 
 
 const Routes = () => {
@@ -36,13 +37,16 @@ const Routes = () => {
         <Route path="/events/all">
           <ListCard type="eventos" />
         </Route>
-
         <Route path="/place/:id">
           <Place />
         </Route>
 
         <Route path="/event/:id">
           <Event />
+        </Route>
+
+        <Route path="/cultural-agenda">
+          <CulturalAgenda />
         </Route>
 
       </Switch>
