@@ -13,13 +13,14 @@ const Navbar = () => {
       <header className="p-3 mb-3 border-bottom blue-navbar">
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <img src={Logo} className="me-5" width="250px" alt="logo" />
+            <Link to="/" className="nav-link px-2 fs-5"><img src={Logo} className="me-5" width="250px" alt="logo" /></Link>
+
 
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 text">
               <li><Link to="/discover" className="nav-link px-2 fs-5">Descubre</Link></li>
-              <li><Link to="/contact" className="nav-link px-2 text-white fs-5">Contactanos</Link></li>
               <li><Link to="/places/all" className="nav-link px-2 text-white fs-5">Lugares</Link></li>
               <li><Link to="/events/all" className="nav-link px-2 text-white fs-5">Eventos</Link></li>
+              <li><Link to="/cultural-agenda" className="nav-link px-2 text-white fs-5">Agenda cultural</Link></li>
             </ul>
             {isLogged ? <div class="dropdown text-end me-4">
               <Link to="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">

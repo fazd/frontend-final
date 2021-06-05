@@ -31,10 +31,10 @@ const Routes = () => {
           <Discover />
         </Route>
         <Route path="/places/all">
-          <ListCard type="plces" />
+          <ListCard type="lugares" />
         </Route>
         <Route path="/events/all">
-          <ListCard type="event" />
+          <ListCard type="eventos" />
         </Route>
 
         <Route path="/place/:id">

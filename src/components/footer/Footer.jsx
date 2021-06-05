@@ -11,11 +11,11 @@ const Footer = () => {
           <div className="row d-flex justify-content-center">
             <div className="col-8">
               <ul className="list-group list-group-horizontal  d-flex justify-content-around">
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/consultas">Consultas</Link></li>
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/security">Seguridad</Link></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/discover">Descubre</Link></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/events/all">Eventos</Link></li>
                 <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/"><img src={Logo} height="40" width="40" alt="" /></Link></li>
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/news">Noticias</Link></li>
-                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/profile">Perfil</Link></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/places/all">Lugares</Link></li>
+                <li className="list-group-item bg-transparent d-flex align-items-center no-border"><Link className="footer-link text-white fw-bold" to="/cultural-agenda">Agenda cultural</Link></li>
               </ul>
             </div>
           </div>
