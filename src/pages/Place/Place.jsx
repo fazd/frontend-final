@@ -12,7 +12,7 @@ import { Icon } from 'leaflet'
 import CommentBox from '../../components/comment-box/Coment-box';
 import ReactStars from 'react-stars'
 import Card from '../../components/card/Card';
-
+import { Link } from 'react-router-dom';
 
 const Place = () => {
 
@@ -76,14 +76,38 @@ const Place = () => {
                   <FontAwesomeIcon icon="signature" className="me-3" />
                   <span>{place.name}</span>
                 </div>
-                <div className="d-flex flex-row my-2">
+                <div className="d-flex flex-row my-2 align-items-center">
                   <FontAwesomeIcon icon="map-marker-alt" className="me-4" />
                   <span>{place.address}</span>
                 </div>
-                <div className="d-flex flex-row my-2">
+                <div className="d-flex flex-row my-2 align-items-center">
                   <FontAwesomeIcon icon="comment" className="me-3" />
                   <span>{place.description}</span>
                 </div>
+                <h4 className="my-3">Datos del lugar</h4>
+                <div className="d-flex flex-row my-2 align-items-center">
+                  <FontAwesomeIcon icon="cloud" className="me-3" />
+                  <span>{place.weather} | </span>
+                  <span className="ms-2 fw-bold">El clima anual tiende a ser soleado</span>
+                </div>
+                <div className="d-flex flex-row my-2 align-items-center">
+                  <FontAwesomeIcon icon="thermometer-empty" className="ms-1 me-4" />
+                  <span>{place.temp} ° | </span>
+                  <span className="ms-2 fw-bold">  La Temperatura anual es de 39°</span>
+                </div>
+                <div class="alert alert-primary mt-4" role="alert">
+                  Sin ningun imprevisto en la zona. Circule con tranquilidad
+                </div>
+                <h4 className="my-3">Información turística</h4>
+                <div className="d-flex flex-row my-2 align-items-center">
+                  <FontAwesomeIcon icon="concierge-bell" className="me-3" />
+                  <Link className="link-span" to="#"><span>¡Conoce los hoteles Aquí!</span></Link>
+                </div>
+                <div className="d-flex flex-row my-2 align-items-center">
+                  <FontAwesomeIcon icon="newspaper" className="me-3" />
+                  <Link className="link-span" to="#"><span>Notas periodisticas de este lugar</span></Link>
+                </div>
+
 
               </div>
             </div>

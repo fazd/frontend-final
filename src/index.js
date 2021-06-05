@@ -26,6 +26,11 @@ import {
   faUsers,
   faSave,
   faPlusCircle,
+  faCloud,
+  faThermometer,
+  faThermometerEmpty,
+  faConciergeBell,
+  faNewspaper,
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -43,7 +48,12 @@ library.add(
   faClock,
   faUsers,
   faSave,
-  faPlusCircle
+  faPlusCircle,
+  faCloud,
+  faThermometer,
+  faThermometerEmpty,
+  faConciergeBell,
+  faNewspaper,
 );
 
 ReactDOM.render(

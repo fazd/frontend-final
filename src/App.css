@@ -112,3 +112,14 @@
 .max-card-text{
   height: 50px;
 }
+
+.link-span{
+  text-decoration: none;
+  color: black;
+}
+
+.link-span:hover{
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
