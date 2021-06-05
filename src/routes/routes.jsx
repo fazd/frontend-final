@@ -11,7 +11,7 @@ import Login from '../pages/Login/Login';
 import Place from '../pages/Place/Place';
 import Event from '../pages/Event/Event';
 import Discover from '../pages/Discover/Discover';
-
+import ListCard from '../pages/List-card/List-card';
 
 
 const Routes = () => {
@@ -30,9 +30,17 @@ const Routes = () => {
         <Route path="/discover">
           <Discover />
         </Route>
+        <Route path="/places/all">
+          <ListCard type="plces" />
+        </Route>
+        <Route path="/events/all">
+          <ListCard type="event" />
+        </Route>
+
         <Route path="/place/:id">
           <Place />
         </Route>
+
         <Route path="/event/:id">
           <Event />
         </Route>
