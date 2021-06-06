@@ -34,7 +34,7 @@ const Home = () => {
         </div>
         <div class="lugares_home3">
           <div class="texto_lugar_home">
-            <Link place="/place/3">
+            <Link to="/place/3">
               <img src={caiman} alt="foto_ventana" class="imagen_home" />
             </Link>
             <p class="texto_imagenes">
