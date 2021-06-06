@@ -25,7 +25,7 @@ const ListCard = (props) => {
       <Navbar />
       <div className="page container mb-5">
         <h2 className="fw-bold mt-5">Aquí encontrarás todos nuestros {props.type}</h2>
-        <div className="d-flex flex-wrap justify-content-evenly">
+        <div className="d-flex flex-wrap justify-content-start">
           {
             arr.map((element) =>
               <Card
@@ -36,7 +36,7 @@ const ListCard = (props) => {
                 type={element.type}
                 thumbsUp={element.thumbsUp}
                 thumbsDown={element.thumbsDown}
-                className="m-3"
+                className="m-3 min-s-4"
 
               />
             )

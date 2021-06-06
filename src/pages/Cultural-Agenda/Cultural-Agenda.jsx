@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Card from '../../components/card/Card';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
@@ -15,8 +15,6 @@ const CulturalAgenda = () => {
       <div className="page container mt-5">
         <h2>Descubre la agenda cultural para cada evento</h2>
         <div class="accordion" id="accordionExample">
-
-
           {
             cultural_events?.map((ce) =>
               <div class="accordion-item my-5 mx-4">
